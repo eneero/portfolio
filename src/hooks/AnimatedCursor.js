@@ -90,7 +90,7 @@ function useEventListener(eventName, handler, element = document) {
 function CursorCore({
     outerStyle,
     innerStyle,
-    color = '220, 90, 90',
+    color = '220, 220, 220',
     outerAlpha = 0.3,
     innerSize = 8,
     outerSize = 8,
@@ -113,8 +113,6 @@ function CursorCore({
   }) {
     const cursorOuterRef = useRef()
     const cursorInnerRef = useRef()
-    const requestRef = useRef()
-    const previousTimeRef = useRef()
     const [coords, setCoords] = useState({ x: 0, y: 0 })
     const [isVisible, setIsVisible] = useState(false)
     const [isActive, setIsActive] = useState(false)
@@ -134,27 +132,6 @@ function CursorCore({
       endX.current = clientX
       endY.current = clientY
     }, [])
-  
-    // Outer Cursor Animation Delay
-    const animateOuterCursor = useCallback(
-      (time) => {
-        if (previousTimeRef.current !== undefined) {
-          coords.x += (endX.current - coords.x) / trailingSpeed
-          coords.y += (endY.current - coords.y) / trailingSpeed
-          cursorOuterRef.current.style.top = `${coords.y}px`
-          cursorOuterRef.current.style.left = `${coords.x}px`
-        }
-        previousTimeRef.current = time
-        requestRef.current = requestAnimationFrame(animateOuterCursor)
-      },
-      [requestRef] // eslint-disable-line
-    )
-  
-    // RAF for animateOuterCursor
-    useEffect(() => {
-      requestRef.current = requestAnimationFrame(animateOuterCursor)
-      return () => cancelAnimationFrame(requestRef.current)
-    }, [animateOuterCursor])
   
     // Mouse Events State updates
     const onMouseDown = useCallback(() => setIsActive(true), [])
