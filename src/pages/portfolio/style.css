@@ -79,3 +79,14 @@
 .po_item .content a:hover {
     text-decoration: none;
 }
+
+@media (width <= 600px) {
+    .po_items_ho {
+        column-width: 8em;
+        -moz-column-width: 10em;
+        -webkit-column-width: 10em;
+        column-gap: 4rem;
+        -moz-column-gap: 4rem;
+        -webkit-column-gap: 4rem;
+    }
+}
