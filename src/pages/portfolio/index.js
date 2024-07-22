@@ -41,7 +41,7 @@ export const Portfolio = () => {
             </Suspense>
             <OrbitControls/>
           </Canvas>
-          <Canvas style={{ width: 300, height: 300, borderColor: '#fff' }} camera={{ position: [100, 500, -200], fov: 30 }}>
+          <Canvas style={{ width: 300, height: 300, borderColor: '#fff' }} camera={{ position: [100, 100, -300], fov: 30 }}>
             <ambientLight intensity={1} />
             <directionalLight position={[0, 10, 5]} intensity={30} />
             <Suspense fallback={null}>
@@ -49,7 +49,7 @@ export const Portfolio = () => {
             </Suspense>
             <OrbitControls/>
           </Canvas>
-          <Canvas style={{ width: 300, height: 300, borderColor: '#fff' }} camera={{ position: [100, 500, -200], fov: 30 }}>
+          <Canvas style={{ width: 300, height: 300, borderColor: '#fff' }} camera={{ position: [180, 200, -300], fov: 30 }}>
             <ambientLight intensity={1} />
             <directionalLight position={[0, 10, 5]} intensity={30} />
             <Suspense fallback={null}>
@@ -57,7 +57,7 @@ export const Portfolio = () => {
             </Suspense>
             <OrbitControls/>
           </Canvas>
-          <Canvas style={{ width: 300, height: 300, borderColor: '#fff' }} camera={{ position: [100, 500, -200], fov: 30 }}>
+          <Canvas style={{ width: 300, height: 300, borderColor: '#fff' }} camera={{ position: [100, 300, -100], fov: 30 }}>
             <ambientLight intensity={1} />
             <directionalLight position={[0, 10, 5]} intensity={30} />
             <Suspense fallback={null}>
@@ -65,7 +65,7 @@ export const Portfolio = () => {
             </Suspense>
             <OrbitControls/>
           </Canvas>
-          <Canvas style={{ width: 300, height: 300, borderColor: '#fff' }} camera={{ position: [100, 500, -200], fov: 30 }}>
+          <Canvas style={{ width: 300, height: 300, borderColor: '#fff' }} camera={{ position: [150, 50, -100], fov: 30 }}>
             <ambientLight intensity={1} />
             <directionalLight position={[0, 10, 5]} intensity={30} />
             <Suspense fallback={null}>
@@ -73,7 +73,7 @@ export const Portfolio = () => {
             </Suspense>
             <OrbitControls/>
           </Canvas>
-          <Canvas style={{ width: 300, height: 300, borderColor: '#fff' }} camera={{ position: [100, 500, -200], fov: 30 }}>
+          <Canvas style={{ width: 300, height: 300, borderColor: '#fff' }} camera={{ position: [150, 100, -400], fov: 30 }}>
             <ambientLight intensity={1} />
             <directionalLight position={[0, 10, 5]} intensity={30} />
             <Suspense fallback={null}>
@@ -81,7 +81,7 @@ export const Portfolio = () => {
             </Suspense>
             <OrbitControls/>
           </Canvas>
-          <Canvas style={{ width: 300, height: 300, borderColor: '#fff' }} camera={{ position: [100, 500, -200], fov: 30 }}>
+          <Canvas style={{ width: 300, height: 300, borderColor: '#fff' }} camera={{ position: [100, 55, -300], fov: 30 }}>
             <ambientLight intensity={1} />
             <directionalLight position={[0, 10, 5]} intensity={30} />
             <Suspense fallback={null}>
@@ -89,7 +89,7 @@ export const Portfolio = () => {
             </Suspense>
             <OrbitControls/>
           </Canvas>
-          <Canvas style={{ width: 300, height: 300, borderColor: '#fff' }} camera={{ position: [100, 500, -200], fov: 30 }}>
+          <Canvas style={{ width: 300, height: 300, borderColor: '#fff' }} camera={{ position: [500, 200, -600], fov: 8 }}>
             <ambientLight intensity={1} />
             <directionalLight position={[0, 10, 5]} intensity={30} />
             <Suspense fallback={null}>
@@ -97,7 +97,7 @@ export const Portfolio = () => {
             </Suspense>
             <OrbitControls/>
           </Canvas>
-          <Canvas style={{ width: 300, height: 300, borderColor: '#fff' }} camera={{ position: [100, 500, -200], fov: 30 }}>
+          <Canvas style={{ width: 300, height: 300, borderColor: '#fff' }} camera={{ position: [200, 500, -200], fov: 35 }}>
             <ambientLight intensity={1} />
             <directionalLight position={[0, 10, 5]} intensity={30} />
             <Suspense fallback={null}>
@@ -105,7 +105,7 @@ export const Portfolio = () => {
             </Suspense>
             <OrbitControls/>
           </Canvas>
-          <Canvas style={{ width: 300, height: 300, borderColor: '#fff' }} camera={{ position: [100, 500, -200], fov: 30 }}>
+          <Canvas style={{ width: 300, height: 300, borderColor: '#fff' }} camera={{ position: [100, 500, -200], fov: 40 }}>
             <ambientLight intensity={1} />
             <directionalLight position={[0, 10, 5]} intensity={30} />
             <Suspense fallback={null}>
